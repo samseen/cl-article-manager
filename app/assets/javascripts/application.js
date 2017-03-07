@@ -15,34 +15,39 @@
 
 //= require jquery_ujs
 //= require turbolinks
+//= require js/fastclick/lib/fastclick.js
+//= require js/nprogress.js
+//= require js/chartjs/chart.min.js
+//= require js/gauge/gauge.min.js
+//= require js/progressbar/bootstrap-progressbar.min.js
+//= require js/icheck/icheck.min.js
+//= require js/skycons/skycons.min.js
 
 //= require js/flot/jquery.flot.js
 //= require js/flot/jquery.flot.pie.js
-//= require js/flot/jquery.flot.orderBars.js
 //= require js/flot/jquery.flot.time.min.js
-//= require js/flot/date.js
-//= require js/flot/jquery.flot.spline.js
+
 //= require js/flot/jquery.flot.stack.js
-//= require js/flot/curvedLines.js
 //= require js/flot/jquery.flot.resize.js
 
-//= require js/progressbar/bootstrap-progressbar.min.js
-
-//= require js/maps/gdp-data.js
-//= require js/maps/jquery-jvectormap-world-mill-en.js
-//= require js/maps/jquery-jvectormap-us-aea-en.js
-//= require js/skycons/skycons.min.js
-
-//= require js/icheck/icheck.min.js
-
+//= require js/flot/jquery.flot.orderBars.js
+//= require js/flot/jquery.flot.spline.js
+//= require js/flot/curvedLines.js
+//= require js/DateJS/build/date.js
+//= require js/jqvmap/dist/jquery.vmap.js
+//= require js/jqvmap/dist/maps/jquery.vmap.world.js
+//= require js/jqvmap/examples/js/jquery.vmap.sampledata.js
 //= require js/moment/moment.min.js
 //= require js/datepicker/daterangepicker.js
 
-//= require js/chartjs/chart.min.js
+//= require js/flot/date.js
+
+//= require js/maps/jquery-jvectormap-us-aea-en.js
+//= require js/maps/jquery-jvectormap-world-mill-en.js
+
+//= require js/maps/gdp-data.js
 
 //= require js/pace/pace.min.js
-
-//= require  js/nprogress.js
 
 //= require flash.js
 
