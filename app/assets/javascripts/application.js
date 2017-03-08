@@ -21,7 +21,7 @@
 //= require js/gauge/gauge.min.js
 //= require js/progressbar/bootstrap-progressbar.min.js
 //= require js/icheck/icheck.min.js
-
+//= require js/skycons/skycons.min.js
 
 //= require js/flot/jquery.flot.js
 //= require js/flot/jquery.flot.pie.js
@@ -50,4 +50,3 @@
 //= require js/pace/pace.min.js
 
 //= require flash.js
-//= require skycons/skycons.min.js

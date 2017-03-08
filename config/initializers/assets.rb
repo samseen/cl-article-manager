@@ -12,3 +12,11 @@ Rails.application.config.assets.version = '1.0'
 
 Rails.application.config.assets.precompile += %w( footermanifest.js)
 Rails.application.config.assets.precompile += %w( skycons/skycons.min.js )
+Rails.application.config.assets.precompile += %w( gentelella/production/js/gauge/gauge_demo.js )
+Rails.application.config.assets.precompile += %w( gentelella/production/js/progressbar/bootstrap-progressbar.min.js )
+Rails.application.config.assets.precompile += %w( gentelella/production/js/icheck/icheck.min.js )
+Rails.application.config.assets.precompile += %w( gentelella/production/js/moment/moment.min.js )
+Rails.application.config.assets.precompile += %w( gentelella/production/js/datepicker/daterangepicker.js )
+Rails.application.config.assets.precompile += %w( gentelella/production/js/chartjs/chart.min.js )
+Rails.application.config.assets.precompile += %w( gentelella/production/js/custom.js )
+
