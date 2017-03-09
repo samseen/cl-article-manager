@@ -1366,38 +1366,54 @@
     <div id="notif-group" class="tabbed_notifications"></div>
   </div>
 
-  <script src="js/bootstrap.min.js"></script>
+  <!--<script src="js/bootstrap.min.js"></script>-->
+  <%= javascript_include_tag "js/bootstrap.min" %>
 
   <!-- bootstrap progress js -->
-  <script src="js/progressbar/bootstrap-progressbar.min.js"></script>
+  <!--<script src="js/progressbar/bootstrap-progressbar.min.js"></script>-->
+  <%= javascript_include_tag "js/progressbar/bootstrap-progressbar.min" %>
   
   <!-- icheck -->
-  <script src="js/icheck/icheck.min.js"></script>
+  <!--<script src="js/icheck/icheck.min.js"></script>-->
+  <%= javascript_include_tag "js/icheck/icheck.min" %>
   <!-- tags -->
-  <script src="js/tags/jquery.tagsinput.min.js"></script>
+  <!--<script src="js/tags/jquery.tagsinput.min.js"></script>-->
+  <%= javascript_include_tag "js/tags/jquery.tagsinput.min" %>
   <!-- switchery -->
-  <script src="js/switchery/switchery.min.js"></script>
+  <!-- <script src="js/switchery/switchery.min.js"></script>-->
+  <%= javascript_include_tag "js/switchery/switchery.min.js" %>
   <!-- daterangepicker -->
-  <script type="text/javascript" src="js/moment/moment.min.js"></script>
-  <script type="text/javascript" src="js/datepicker/daterangepicker.js"></script>
+  <!-- <script type="text/javascript" src="js/moment/moment.min.js"></script>-->
+  <%= javascript_include_tag "js/moment/moment.min" %>
+  <!-- <script type="text/javascript" src="js/datepicker/daterangepicker.js"></script> -->
+  <%= javascript_include_tag "js/datepicker/daterangepicker" %>
   <!-- richtext editor -->
-  <script src="js/editor/bootstrap-wysiwyg.js"></script>
-  <script src="js/editor/external/jquery.hotkeys.js"></script>
-  <script src="js/editor/external/google-code-prettify/prettify.js"></script>
+  <!-- <script src="js/editor/bootstrap-wysiwyg.js"></script> -->
+  <%= javascript_include_tag "js/editor/bootstrap-wysiwyg" %>
+  <!-- <script src="js/editor/external/jquery.hotkeys.js"></script>-->
+  <%= javascript_include_tag "js/editor/external/jquery.hotkeys" %>
+  <!-- <script src="js/editor/external/google-code-prettify/prettify.js"></script> -->
+  <%= javascript_include_tag "js/editor/external/google-code-prettify/prettify" %>
   <!-- select2 -->
-  <script src="js/select/select2.full.js"></script>
+  <!-- <script src="js/select/select2.full.js"></script> -->
+  <%= javascript_include_tag "js/select/select2.full" %>
   <!-- form validation -->
-  <script type="text/javascript" src="js/parsley/parsley.min.js"></script>
+  <!-- <script type="text/javascript" src="js/parsley/parsley.min.js"></script>-->
+  <%= javascript_include_tag "js/parsley/parsley.min" %>
   <!-- textarea resize -->
-  <script src="js/textarea/autosize.min.js"></script>
+  <!-- <script src="js/textarea/autosize.min.js"></script> -->
+  <%= javascript_include_tag "js/textarea/autosize.min" %>
   <script>
     autosize($('.resizable_textarea'));
   </script>
   <!-- Autocomplete -->
-  <script type="text/javascript" src="js/autocomplete/countries.js"></script>
-  <script src="js/autocomplete/jquery.autocomplete.js"></script>
+  <!-- <script type="text/javascript" src="js/autocomplete/countries.js"></script> -->
+  <%= javascript_include_tag "js/autocomplete/countries.js" %>
+  <!-- <script src="js/autocomplete/jquery.autocomplete.js"></script> -->
+  <%= javascript_include_tag "js/autocomplete/jquery.autocomplete.js" %>
   <!-- pace -->
-  <script src="js/pace/pace.min.js"></script>
+  <!-- <script src="js/pace/pace.min.js"></script>-->
+  <%= javascript_include_tag "js/pace/pace.min" %>
   <script type="text/javascript">
     $(function() {
       'use strict';
@@ -1414,7 +1430,8 @@
       });
     });
   </script>
-  <script src="js/custom.js"></script>
+  <!-- <script src="js/custom.js"></script>-->
+  <%= javascript_include_tag "js/custom.js" %>
 
 
   <!-- select2 -->
