@@ -33,5 +33,15 @@ Rails.application.config.assets.precompile += %w( gentelella/production/js/flot/
 Rails.application.config.assets.precompile += %w( gentelella/production/js/flot/jquery.flot.stack.js )
 Rails.application.config.assets.precompile += %w( gentelella/production/js/flot/curvedLines.js )
 Rails.application.config.assets.precompile += %w( gentelella/production/js/flot/jquery.flot.resize.js )
-
+Rails.application.config.assets.precompile += %w( gentelella/production/js/tags/jquery.tagsinput.min.js )
+Rails.application.config.assets.precompile += %w( gentelella/production/js/switchery/switchery.min.js )
+Rails.application.config.assets.precompile += %w( gentelella/production/js/editor/bootstrap-wysiwyg.js )
+Rails.application.config.assets.precompile += %w( gentelella/production/js/editor/external/jquery.hotkeys.js )
+Rails.application.config.assets.precompile += %w( gentelella/production/js/editor/external/google-code-prettify/prettify.js )
+Rails.application.config.assets.precompile += %w( gentelella/production/js/select/select2.full.js )
+Rails.application.config.assets.precompile += %w( gentelella/production/js/parsley/parsley.min.js )
+Rails.application.config.assets.precompile += %w( gentelella/production/js/textarea/autosize.min.js )
+Rails.application.config.assets.precompile += %w( gentelella/production/js/autocomplete/countries.js )
+Rails.application.config.assets.precompile += %w( gentelella/production/js/autocomplete/jquery.autocomplete )
+Rails.application.config.assets.precompile += %w( gentelella/production/js/pace/pace.min.js )
 
