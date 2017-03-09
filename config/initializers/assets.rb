@@ -10,6 +10,10 @@ Rails.application.config.assets.version = '1.0'
 # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
 # Rails.application.config.assets.precompile += %w( search.js )
 
+Rails.application.config.assets.precompile += %w( gentelella/production/js/maps/jquery-jvectormap-2.0.3.min.js )
+Rails.application.config.assets.precompile += %w( gentelella/production/js/maps/gdp-data.js )
+Rails.application.config.assets.precompile += %w( gentelella/production/js/maps/jquery-jvectormap-world-mill-en.js )
+Rails.application.config.assets.precompile += %w( gentelella/production/js/maps/jquery-jvectormap-us-aea-en.js )
 Rails.application.config.assets.precompile += %w( footermanifest.js)
 Rails.application.config.assets.precompile += %w( skycons/skycons.min.js )
 Rails.application.config.assets.precompile += %w( gentelella/production/js/gauge/gauge_demo.js )
@@ -28,4 +32,5 @@ Rails.application.config.assets.precompile += %w( gentelella/production/js/flot/
 Rails.application.config.assets.precompile += %w( gentelella/production/js/flot/jquery.flot.stack.js )
 Rails.application.config.assets.precompile += %w( gentelella/production/js/flot/curvedLines.js )
 Rails.application.config.assets.precompile += %w( gentelella/production/js/flot/jquery.flot.resize.js )
+
 

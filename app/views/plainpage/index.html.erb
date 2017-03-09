@@ -1153,7 +1153,11 @@
   <script type="text/javascript" src="js/maps/gdp-data.js"></script>
   <script type="text/javascript" src="js/maps/jquery-jvectormap-world-mill-en.js"></script>
   <script type="text/javascript" src="js/maps/jquery-jvectormap-us-aea-en.js"></script>-->
-
+  
+  <%= javascript_include_tag "js/maps/jquery-jvectormap-2.0.3.min.js" %>
+  <%= javascript_include_tag "js/maps/gdp-data.js" %>
+  <%= javascript_include_tag "js/maps/jquery-jvectormap-world-mill-en.js" %>
+  <%= javascript_include_tag "js/maps/jquery-jvectormap-us-aea-en.js" %>
   <script>
     $(function() {
       $('#world-map-gdp').vectorMap({

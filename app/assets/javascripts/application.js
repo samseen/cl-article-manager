@@ -34,18 +34,13 @@
 //= require js/flot/jquery.flot.spline.js
 //= require js/flot/curvedLines.js
 //= require js/DateJS/build/date.js
-//= require js/jqvmap/dist/jquery.vmap.js
-//= require js/jqvmap/dist/maps/jquery.vmap.world.js
-//= require js/jqvmap/examples/js/jquery.vmap.sampledata.js
+//= require js/maps/jquery-jvectormap-us-aea-en.js
+//= require js/maps/jquery-jvectormap-world-mill-en.js
+//= require js/maps/gdp-data.js
 //= require js/moment/moment.min.js
 //= require js/datepicker/daterangepicker.js
 
 //= require js/flot/date.js
-
-//= require js/maps/jquery-jvectormap-us-aea-en.js
-//= require js/maps/jquery-jvectormap-world-mill-en.js
-
-//= require js/maps/gdp-data.js
 
 //= require js/pace/pace.min.js
 
