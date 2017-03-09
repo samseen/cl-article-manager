@@ -1054,14 +1054,23 @@
   <!-- flot js -->
   <!--[if lte IE 8]><script type="text/javascript" src="js/excanvas.min.js"></script><![endif]-->
   <!--<script type="text/javascript" src="js/flot/jquery.flot.js"></script>
+  <%= javascript_include_tag "js/flot/jquery.flot.js" %>
   <script type="text/javascript" src="js/flot/jquery.flot.pie.js"></script>
+  <%= javascript_include_tag "js/flot/jquery.flot.pie.js" %>
   <script type="text/javascript" src="js/flot/jquery.flot.orderBars.js"></script>
+  <%= javascript_include_tag "js/flot/jquery.flot.orderBars.js" %>
   <script type="text/javascript" src="js/flot/jquery.flot.time.min.js"></script>
+  <%= javascript_include_tag "js/flot/jquery.flot.time.min.js" %>
   <script type="text/javascript" src="js/flot/date.js"></script>
+  <%= javascript_include_tag "js/flot/date.js" %>
   <script type="text/javascript" src="js/flot/jquery.flot.spline.js"></script>
+  <%= javascript_include_tag "js/flot/jquery.flot.spline.js" %>
   <script type="text/javascript" src="js/flot/jquery.flot.stack.js"></script>
+  <%= javascript_include_tag "js/flot/jquery.flot.stack.js" %>
   <script type="text/javascript" src="js/flot/curvedLines.js"></script>
+  <%= javascript_include_tag "js/flot/curvedLines.js" %>
   <script type="text/javascript" src="js/flot/jquery.flot.resize.js"></script>-->
+  <%= javascript_include_tag "js/flot/jquery.flot.resize.js" %>
   <script>
     $(document).ready(function() {
       // [17, 74, 6, 39, 20, 85, 7]
@@ -1144,13 +1153,7 @@
   <script type="text/javascript" src="js/maps/gdp-data.js"></script>
   <script type="text/javascript" src="js/maps/jquery-jvectormap-world-mill-en.js"></script>
   <script type="text/javascript" src="js/maps/jquery-jvectormap-us-aea-en.js"></script>-->
-  <%= javascript_include_tag "maps/jquery-jvectormap-2.0.3.min.js" %>
-  <%= javascript_include_tag "maps/gdp-data.js" %>
-  <%= javascript_include_tag "jquery-jvectormap-world-mill-en.js" %>
-  <%= javascript_include_tag "jquery-jvectormap-us-aea-en.js" %>
-  <!-- pace -->
-  <!--<script src="js/pace/pace.min.js"></script>-->
-  <%= javascript_include_tag "pace/pace.min.js" %>
+
   <script>
     $(function() {
       $('#world-map-gdp').vectorMap({
@@ -1172,7 +1175,7 @@
   </script>
   <!-- skycons -->
   <!--<script src="js/skycons/skycons.min.js"></script>-->
-  <%= javascript_include_tag "skycons/skycons.min.js" %>
+
   <script>
     var icons = new Skycons({
         "color": "#73879C"

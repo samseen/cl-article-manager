@@ -19,4 +19,13 @@ Rails.application.config.assets.precompile += %w( gentelella/production/js/momen
 Rails.application.config.assets.precompile += %w( gentelella/production/js/datepicker/daterangepicker.js )
 Rails.application.config.assets.precompile += %w( gentelella/production/js/chartjs/chart.min.js )
 Rails.application.config.assets.precompile += %w( gentelella/production/js/custom.js )
+Rails.application.config.assets.precompile += %w( gentelella/production/js/flot/jquery.flot.js )
+Rails.application.config.assets.precompile += %w( gentelella/production/js/flot/jquery.flot.pie.js )
+Rails.application.config.assets.precompile += %w( gentelella/production/js/flot/jquery.flot.orderBars.js )
+Rails.application.config.assets.precompile += %w( gentelella/production/js/flot/jquery.flot.time.min.js )
+Rails.application.config.assets.precompile += %w( gentelella/production/js/flot/date.js )
+Rails.application.config.assets.precompile += %w( gentelella/production/js/flot/jquery.flot.spline.js )
+Rails.application.config.assets.precompile += %w( gentelella/production/js/flot/jquery.flot.stack.js )
+Rails.application.config.assets.precompile += %w( gentelella/production/js/flot/curvedLines.js )
+Rails.application.config.assets.precompile += %w( gentelella/production/js/flot/jquery.flot.resize.js )
 
